@@ -1,0 +1,37 @@
+<section id="experiencia" class="experiencia">
+    <div class="container-fluid" id="caja">
+        <div class="row">
+            <div class="col">
+                <p class="titulo" id="titulo">Experiencia</p>
+            </div>
+            <div class="col">
+                <a class="editar_placas" href="#" title="Agregar" class="btn btn-lg add" data-bs-toggle="modal"
+                    data-bs-target="#experienciaModal"><i class="fa-solid fa-plus"></i></a>
+            </div>
+        </div>
+        <div class="row" *ngFor="let experience of experienciaList">
+            <div class="col-2">
+                <img [src]="experience.logo" class="logo" alt="...">
+            </div>
+            <div class="col-8">
+                <p class="experiencia" id="nombre-empresa">{{experience.nombre_empresa}}</p>
+                <p class="experiencia" id="cargo">{{experience.cargo}}</p>
+                <p class="experiencia" id="fecha-desde">Dede: {{experience.fecha_desde}}</p>
+                <p class="experiencia" id="fecha-hasta">Hasta: {{experience.fecha_hasta}}</p>
+            </div>
+            <div class="col-2">
+                <ul class="list-group list-group-horizontal edicion">
+                    <li><a class="editar_placas" href="#" title="Editar" class="btn btn-light btn-lg p-5 "
+                            data-bs-toggle="modal" data-bs-target="#experienciaModal"><i
+                                class="fa-solid fa-pen-to-square"></i></a></li>
+                    <li><a class="editar_placas" href="#" title="Borrar" class="btn btn-light btn-lg p-5 "
+                            data-bs-toggle="modal" data-bs-target="#eliminar"><i class="fa-solid fa-trash-can"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Modales-->
+<app-experience></app-experience>
+<app-button-eliminar></app-button-eliminar>

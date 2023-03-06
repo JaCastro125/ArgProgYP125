@@ -1,0 +1,11 @@
+/*habilidades*/
+.progress{
+    margin-top: 5%;
+}
+
+.tecnologia{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.75rem;
+    margin-left: -2rem;
+}

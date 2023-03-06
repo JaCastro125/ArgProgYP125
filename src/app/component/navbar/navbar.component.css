@@ -1,0 +1,5 @@
+/* Barra de navegacion*/
+.navbar.navbar-expand-lg.bg-light{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(133,150,206,1) 50%, rgba(0,36,152,1) 100%);
+}

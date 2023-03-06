@@ -1,0 +1,50 @@
+<!-- Modal Datos mios-->
+<form [formGroup]="form" (ngSubmit)="Guardar($event)">
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sobre Mi / Datos personales</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <label for="aboutModal" class="form-label">Nombre y Apellido</label>
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="aboutModal" class="form-label">Pais</label>
+                            <input type="text" class="form-control" placeholder="country" aria-label="country">
+                        </div>
+                        <div class="col">
+                            <label for="aboutModal" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" placeholder="city" aria-label="city">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="aboutModal" class="form-label">Telefono</label>
+                            <input type="tel" class="form-control" placeholder="city" aria-label="city">
+                        </div>
+                        <div class="col">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="Email" value="email@dominio.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="opciones text-center">
+                        <div class="row">
+                            <div class="col"><button type="submit" class="btn btn-success">Guardar</button></div>
+                            <div class="col"><button type="button" class="btn btn-dark" data-bs-dismiss="modal"
+                                    aria-label="Close">Cancelar</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

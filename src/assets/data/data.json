@@ -1,0 +1,98 @@
+{
+    "sobreMi":[{
+        "img_perfil": "./assets/img/perfil.JPG",
+        "nombre": "Javier Agustin",
+        "apellido": "Castro",
+        "profesion": "fullstack Developer Jr.",
+        "pais": "Argentina",
+        "ciudad": "Catamarca",
+        "localidad": "Catamarca",
+        "cp": "CP4700",
+        "email": "likeyou201120@gmail.com",
+        "celular": "+54 351 3481225",
+        "descripcion": "Contador dedicado al asesoramiento tributario, tambien participo de la dirección y docencia de un instituto de apoyo escolar. Ex gerente de un establecimiento hotelero / gastronómico (15 años). Dedicado y apasionado por la informática (soft y hard). Actualmente freelancer para desarrollo, administración y control de paginas web."
+    }],
+
+    "educacion":[{
+        "id": 1,  
+        "logo": "assets/img/ucc.png",
+        "nombre": "Universidad Católica de Córdoba",
+        "descripcion": "Contador Público Nacional"
+    },
+    {
+        "id": 2,
+        "logo": "assets/img/ubp.png",
+        "nombre": "Universidad Blas Pascal",
+        "descripcion": "Capacitación: Asesor Tributario"
+    },
+    {
+        "id": 3,
+        "logo": "assets/img/YPlogo1.png",
+        "nombre": "#yoprogramo 3°etapa",
+        "descripcion": "Fullstack Developer Jr"
+    }],
+
+    "experiencia":[{
+        "id": 1,
+        "logo":"assets/img/Noimagen.png",
+        "nombre_empresa": "Contador Público Nacional",
+        "cargo":"Autónomo, consultor tributario",
+        "fecha_desde":"2001",
+        "fecha_hasta":"Actualidad"
+    },
+    {        
+        "id": 2,
+        "logo":"assets/img/apoyo.png",
+        "nombre_empresa": "Instituo de Apoyo Escolar VCP",
+        "cargo":"Director de Apoyo Escolar y profesor en los niveles primario, secundario, terciario y universitario",
+        "fecha_desde":"2005",
+        "fecha_hasta":"Actualidad"
+    },
+    {    
+        "id": 3,
+        "logo":"assets/img/Noimagen.png",
+        "nombre_empresa": "Casa de Chicha",
+        "cargo":"Gerente",
+        "fecha_desde":"2000",
+        "fecha_hasta":"2015"
+    }],
+
+    "habilidades":[{
+        "id": 1,
+        "logo":"assets/img/html5.png",
+        "tecnologia":"HTML5",
+        "porcentaje":"width: 80%"
+    },
+    {
+        "id": 2,
+        "logo":"assets/img/css3.png",
+        "tecnologia":"CSS3",
+        "porcentaje":"width: 60%"
+    },
+    {    
+        "id": 3,
+        "logo":"assets/img/angular.png",
+        "tecnologia":"ANGULAR",
+        "porcentaje":"width: 10%"
+    },
+    {
+        "id": 4,
+        "logo":"assets/img/node.png",
+        "tecnologia":"NODE",
+        "porcentaje":"width: 10%"
+    },
+    {
+        "id": 5,
+        "logo":"assets/img/mysql.png",
+        "tecnologia":"MYSQL",
+        "porcentaje":"width: 10%"
+    }],
+
+    "proyectos":[{
+        "id": 1,
+        "logo":"assets/img/YPlogo1.png",
+        "titulo":"Curriculum Vitae",
+        "descripcion":"Curriculum vitae online, que permite edita, elimanar secciones y descargar todo el contenido en formato PDF"    
+    }]
+}
+

@@ -1,0 +1,30 @@
+<section id="proyectos" class="proyectos">
+    <div class="container-fluid" id="caja">
+        <div class="row">
+            <div class="col">
+                <p class="titulo" id="titulo">Proyectos</p>
+            </div>
+            <div class="col">
+                <a class="editar_placas" href="#" title="Agregar" class="btn btn-lg add" data-bs-toggle="modal" data-bs-target="#proyectoModal"><i class="fa-solid fa-plus"></i></a>
+            </div>
+        </div>
+        <div class="row" *ngFor="let proyect of proyectosList">
+            <div class="col-2">
+                <img [src]="proyect.logo" class="logo" alt="logo yoprogramo">
+            </div>
+            <div class="col-8">
+                <p class="proyectos" id="titulo">{{proyect.titulo}}</p>
+                <p class="proyectos" id="descripcion">{{proyect.descripcion}}</p>
+            </div>
+            <div class="col-2">
+                <ul class="list-group list-group-horizontal edicion">
+                    <li><a class="editar_placas" href="#" title="Editar" class="btn btn-light btn-lg p-5 " data-bs-toggle="modal" data-bs-target="#proyectoModal"><i class="fa-solid fa-pen-to-square"></i></a></li>
+                    <li><a class="editar_placas" href="#" title="Borrar" class="btn btn-light btn-lg p-5 " data-bs-toggle="modal" data-bs-target="#eliminar"><i class="fa-solid fa-trash-can"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Modales-->
+<app-proyect></app-proyect>
+<app-button-eliminar></app-button-eliminar>

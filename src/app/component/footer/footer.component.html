@@ -1,0 +1,20 @@
+<section id="mapa-pdf" class="mapa-pdf">
+    <div class="container-fluid" id="mapa-pdf">
+        <div class="row" *ngFor="let aboutMe of footerList">
+            <div class="col-5">
+                <ul class="lista_footer">
+                    <li>{{aboutMe.nombre_apellido}}</li>
+                    <li>{{aboutMe.ciudad}}, {{aboutMe.localidad}}, {{aboutMe.cp}}</li>
+                    <li>Telefono: {{aboutMe.celular}}</li>
+                    <li>Mail: {{aboutMe.email}}</li>
+                </ul>
+            </div>
+            <div class="col-5 footer">
+                <a href="#" type="button" style="color: aliceblue;">Go to TOP</a>
+            </div>
+            <div class="col">
+                <a class="boton_pdf" href="#" title="Editar"><i class="fa-solid fa-file-pdf"></i></a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+/*banner*/
+body{
+    background-image: url(./assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+/* - - - GENERAL - - -*/
+
+    /*botones*/
+    .btn {
+        border: 0;
+        border-radius: 0;
+    }
+    .p-5 {
+        padding: 0;
+        display: contents;
+        font-size: 1.5vw;
+    }
+    .add{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    ul {
+        list-style: none;
+    }
+    ul.list-group.list-group-horizontal.edicion {
+        font-size: 1.5vw;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        --bs-link-color: black;
+        justify-content: space-around;
+    }
+    .col-2.text-center.edit {
+        font-size: 1.5vw;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        --bs-link-color: black;
+    }
+    .col-1.text-center.edit{
+        margin-left: -1rem;
+        font-size: 1.5vw;
+        display: flex;
+        align-items: center;
+        --bs-link-color: black;
+    }    
+
+    /*logos*/
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+    }
+
+    /*Borde de cajas*/
+    .container-fluid#caja {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        border-style: solid;
+        border-radius: 1rem;
+        margin-left: 5%;
+        padding-bottom: 1%;
+        width: 90%;
+        margin-top: 1%;
+    }
+    /*Titulos de cajas*/
+    .titulo#titulo{
+        font-size: 3vw !important;
+        margin-bottom: 0;
+    }
+

@@ -1,0 +1,26 @@
+i.fa-solid.fa-user-lock:hover{
+    color:green;
+}
+.list-group {
+    --bs-list-group-color: white;
+    --bs-list-group-bg: none;
+    --bs-list-group-border-color: none;
+}
+i.fa-brands {
+    color:aliceblue;
+}
+i.fa-brands:hover {
+    color:rgb(96, 144, 207);
+}
+ul.list-group.list-group-horizontal {
+    font-size: 3vw;
+}
+.list-group.list-group-horizontal{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+}
+ul {
+    list-style: none;
+}

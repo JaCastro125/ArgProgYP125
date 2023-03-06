@@ -1,0 +1,14 @@
+/*experiencia*/
+
+.experiencia#nombre-empresa{
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+.experiencia#cargo{
+    font-size: 1vw;
+    margin-bottom: 0;
+}
+.experiencia#fecha-desde, .experiencia#fecha-hasta{
+    font-size: 1vw;
+    margin-bottom: 0;
+}

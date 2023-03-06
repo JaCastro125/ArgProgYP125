@@ -1,0 +1,28 @@
+<!-- Modal Sobre Mi-->
+<form [formGroup]="form" (ngSubmit)="Guardar($event)">
+    <div class="modal fade" id="sobreMiModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sobre Mi / Breve descripción</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="formSobreMiFile" class="form-label">Descripción</label>
+                        <textarea class="form-control" id="formSobreMiFile" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="opciones text-center">
+                        <div class="row">
+                            <div class="col"><button type="submit" class="btn btn-success">Guardar</button></div>
+                            <div class="col"><button type="button" class="btn btn-dark" data-bs-dismiss="modal"
+                                    aria-label="Close">Cancelar</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,58 @@
+/*foto perfil*/
+section.about {
+    margin-top: 30%;
+}
+.rounded-circle.w-75{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -40%;
+    margin-left: 10%;
+}
+
+/*sobre mi*/
+.about-me#descripcion{
+    font-size: 1.2vw !important;
+    margin-bottom: 0;
+}
+.about#nombre{
+    font-size: 3vw !important;
+    margin-bottom: 0;
+}
+.about#profesion{
+    font-size: 1.5vw !important;
+    margin-bottom: 0;
+}
+.about#pais{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+.about#ciudad{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+.about#email{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+.about#celular{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+.col-1.text-center.edit{
+    margin-left: -2rem;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    --bs-link-color: black;
+}
+.col-2.text-center.edit {
+    font-size: 3.5vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    --bs-link-color: black;
+    background-color: transparent;
+}

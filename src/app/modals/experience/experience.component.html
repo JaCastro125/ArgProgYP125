@@ -1,0 +1,47 @@
+<!-- Modal Trabajo editar, agregar-->
+<form [formGroup]="form" (ngSubmit)="Guardar($event)">
+    <div class="modal fade" id="experienciaModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Trabajo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <div class="mb-3">
+                            <label for="formtrabajoFile" class="form-label">Imagen de la Empresa</label>
+                            <input class="form-control" type="file" id="formtrabajoFile">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formtrabajoInputName" class="form-label">Nombre de la Empresa</label>
+                            <input type="text" class="form-control" id="formtrabajoInputName"
+                                placeholder="Argentina Programa">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formtrabajoInputDesccription" class="form-label">Cargo desempeñado</label>
+                            <input type="text" class="form-control" id="formtrabajoInputDesccription"
+                                placeholder="FullStack Jr">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formtrabajoInputDate" class="form-label">Ingrese fecha</label>
+                            <br>
+                            Desde: <input type="text" id="from" name="from">
+                            <br>
+                            Hasta : <input type="text" id="to" name="to">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="opciones text-center">
+                        <div class="row">
+                            <div class="col"><button type="submit" class="btn btn-success">Guardar</button></div>
+                            <div class="col"><button type="button" class="btn btn-dark" data-bs-dismiss="modal"
+                                    aria-label="Close">Cancelar</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

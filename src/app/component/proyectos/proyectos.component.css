@@ -1,0 +1,10 @@
+/*proyectos*/
+.proyectos#titulo{
+    font-size: 2vw !important;
+    margin-bottom: 0;
+}
+.proyectos#descripcion{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+    padding-bottom: 5%;
+}
